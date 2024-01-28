@@ -28,7 +28,7 @@ public class Assignment6_1 {
 		System.out.println("Enter what you wanna perform");
 		String ch = sc.next();
 		
-	switch(ch) {													//getting from the user which particular operation he wants to do
+	switch(ch) {									//getting from the user which particular operation he wants to do
 	case "+" : System.out.println(additionSimple(a, b));
 	break;
 	case "-" : System.out.println(subtractionSimple(a, b));
